@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-22T14:15:18 IST" name="Suite" finished-at="2021-09-22T14:15:19 IST" duration-ms="94">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateContactTest.createContact()[pri:0, instance:com.testyantra.maven.createTest.CreateContactTest@35083305]" name="createContact" class="com.testyantra.maven.createTest.CreateContactTest"/>
+        <method signature="TC_01_createOrgTest.createOrg()[pri:0, instance:com.testyantra.maven.createOrgTest.TC_01_createOrgTest@667a738]" name="createOrg" class="com.testyantra.maven.createOrgTest.TC_01_createOrgTest"/>
+        <method signature="TC_01_createOrgTest.createOrgWithOpp()[pri:0, instance:com.testyantra.maven.createOrgTest.TC_01_createOrgTest@667a738]" name="createOrgWithOpp" class="com.testyantra.maven.createOrgTest.TC_01_createOrgTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CreateContactTest.createContactWithOpp()[pri:0, instance:com.testyantra.maven.createTest.CreateContactTest@35083305]" name="createContactWithOpp" class="com.testyantra.maven.createTest.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactWithOrg()[pri:0, instance:com.testyantra.maven.createTest.CreateContactTest@35083305]" name="createContactWithOrg" class="com.testyantra.maven.createTest.CreateContactTest"/>
+        <method signature="TC_01_createOrgTest.createOrgWithInd()[pri:0, instance:com.testyantra.maven.createOrgTest.TC_01_createOrgTest@667a738]" name="createOrgWithInd" class="com.testyantra.maven.createOrgTest.TC_01_createOrgTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2021-09-22T14:15:18 IST" name="Test" finished-at="2021-09-22T14:15:19 IST" duration-ms="94">
+      <class name="com.testyantra.maven.createTest.CreateContactTest">
+        <test-method signature="createContact()[pri:0, instance:com.testyantra.maven.createTest.CreateContactTest@35083305]" started-at="2021-09-22T14:15:19 IST" name="createContact" finished-at="2021-09-22T14:15:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method signature="createContactWithOpp()[pri:0, instance:com.testyantra.maven.createTest.CreateContactTest@35083305]" started-at="2021-09-22T14:15:19 IST" name="createContactWithOpp" finished-at="2021-09-22T14:15:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOpp -->
+        <test-method signature="createContactWithOrg()[pri:0, instance:com.testyantra.maven.createTest.CreateContactTest@35083305]" started-at="2021-09-22T14:15:19 IST" name="createContactWithOrg" finished-at="2021-09-22T14:15:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrg -->
+      </class> <!-- com.testyantra.maven.createTest.CreateContactTest -->
+      <class name="com.testyantra.maven.createOrgTest.TC_01_createOrgTest">
+        <test-method signature="createOrg()[pri:0, instance:com.testyantra.maven.createOrgTest.TC_01_createOrgTest@667a738]" started-at="2021-09-22T14:15:18 IST" name="createOrg" finished-at="2021-09-22T14:15:18 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method signature="createOrgWithInd()[pri:0, instance:com.testyantra.maven.createOrgTest.TC_01_createOrgTest@667a738]" started-at="2021-09-22T14:15:18 IST" name="createOrgWithInd" finished-at="2021-09-22T14:15:18 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithInd -->
+        <test-method signature="createOrgWithOpp()[pri:0, instance:com.testyantra.maven.createOrgTest.TC_01_createOrgTest@667a738]" started-at="2021-09-22T14:15:18 IST" name="createOrgWithOpp" finished-at="2021-09-22T14:15:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithOpp -->
+      </class> <!-- com.testyantra.maven.createOrgTest.TC_01_createOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

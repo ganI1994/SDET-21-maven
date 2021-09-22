@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name="SmokeTest"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.testyantra.maven.createOrgTest.TC_01_createOrgTest"/>
+      <class name="com.testyantra.maven.createTest.CreateContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
