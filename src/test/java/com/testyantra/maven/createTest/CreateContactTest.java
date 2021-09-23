@@ -8,7 +8,7 @@ public class CreateContactTest {
 	public void createContact()
 	{
 		System.out.println("Execution of createContact");
-		String BROWSER=System.getProperty("browser");
+		String BROWSER=System.getProperty("Browser");
 		System.out.println(BROWSER);
 	}
 	
@@ -16,7 +16,7 @@ public class CreateContactTest {
 	public void createContactWithOrg()
 	{
 		System.out.println("Execution of createContactWithOrg");
-		String ENV=System.getProperty("env");
+		String ENV=System.getProperty("Environment");
 		System.out.println(ENV);
 	}
 	
