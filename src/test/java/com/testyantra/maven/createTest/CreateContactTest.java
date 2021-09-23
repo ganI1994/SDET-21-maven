@@ -8,12 +8,16 @@ public class CreateContactTest {
 	public void createContact()
 	{
 		System.out.println("Execution of createContact");
+		String BROWSER=System.getProperty("browser");
+		System.out.println(BROWSER);
 	}
 	
 	@Test(groups="RegressionTest")
 	public void createContactWithOrg()
 	{
 		System.out.println("Execution of createContactWithOrg");
+		String ENV=System.getProperty("env");
+		System.out.println(ENV);
 	}
 	
 	@Test(groups="RegressionTest")
