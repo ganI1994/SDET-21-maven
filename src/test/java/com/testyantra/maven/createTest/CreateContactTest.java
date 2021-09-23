@@ -21,4 +21,9 @@ public class CreateContactTest {
 	{
 		System.out.println("Execution of createContactWithOpp");
 	}
+	@Test(groups="RegressionTest")
+	public void createContactWithLead()
+	{
+		System.out.println("Execution of createContactWithLead");
+	}
 }
